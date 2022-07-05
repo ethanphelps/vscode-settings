@@ -118,14 +118,6 @@
       "before": ["K"],
       "after": ["5", "k"]
     }
-    //   {
-    //     "before": [">"],
-    //     "after": [">", "g", "v"]
-    //   },
-    //   {
-    //     "before": ["<"],
-    //     "after": ["<", "g", "v"]
-    // },
   ],
   "vim.leader": " ",
   "javascript.updateImportsOnFileMove.enabled": "always",

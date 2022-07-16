@@ -80,6 +80,8 @@
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "editor.guides.indentation": false,
   "vim.normalModeKeyBindingsNonRecursive": [
+  
+  
     {
       "before": ["J"],
       "after": ["5", "j"]
@@ -99,6 +101,14 @@
     {
       "before": ["<C-h>"],
       "commands": [":tabprev"]
+    },
+    {
+      "before": ["<C-j>"],
+      "after": ["}"]
+    },
+    {
+      "before": ["<C-k>"],
+      "after": ["{"]
     },
     {
       "before": ["<Leader>", "t", "o"],
